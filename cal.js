@@ -72,9 +72,11 @@ for (let i =0; i < buttons.length; i++){
 for(let i = 0; i < divsquare.length; i++){
     divsquare[i].onmouseenter = function(){
         divsquare[i].style.backgroundColor = "white";
+        divsquare[i].style.fontSize = "45px";
     };
     divsquare[i].onmouseleave = function(){
         divsquare[i].style.backgroundColor = "mediumblue";
+        divsquare[i].style.fontSize = "30px";
     };
 };
 

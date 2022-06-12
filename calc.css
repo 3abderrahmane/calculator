@@ -1,13 +1,16 @@
 
 body{
     background-color: darkslategrey;
+    padding: 20px;
 }
 .outerbox{
     width: 468px;
     height: 565px;;
-    background-color: dimgrey;
+    background-image: linear-gradient(rgb(12, 178, 243), rgb(11, 53, 13), olive);
     margin: auto;
     padding-top: 1px;
+    border: solid 3px white;
+    box-shadow: 5px 0px 5px 10px #888888;
 }
 #caltotal{
     border-radius: 10%;
@@ -23,6 +26,7 @@ body{
     background-color: rgb(22, 41, 36);
     width: 394px;
     height: 70px;
+    border: solid 3px white;
 }
 .result{
     text-align: right;
@@ -34,6 +38,7 @@ body{
     background-color: rgb(125, 99, 167);
     overflow: hidden;
     text-overflow: ellipsis;
+    box-shadow: inset 6px white;
 
 }
 #options{
@@ -44,16 +49,16 @@ body{
     height: 79px;
     background-color: mediumblue;
     margin: 2px;
-    border-radius: 4%;
+    border-radius: 15%;
     display:block;
     float: left;
     text-align: center;
-    text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-  }
-  footer {
+}
+footer{
     color:white;
+    margin: auto;
     text-align: center;
     font-size: large;
     font-size: 20px;
